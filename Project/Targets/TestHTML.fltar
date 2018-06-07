@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ConditionTagExpression="include[Default.ScreenOnly] exclude[Default.PrintOnly] "
+  MasterToc="/Project/TOCs/Online TOC.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Glossaries />
+  <DocumentProperties
+    Author="MadCap Software"
+    Title="All About San Diego" />
+  <PDF
+    ShowUsedBookmarks="false"
+    PageLayout="OneColumn"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>
